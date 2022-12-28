@@ -8,3 +8,5 @@ for(var i=0; i <= array.length -1  ; i++){
         console.log(array[i])
     }
 }
+
+//luyen tap them cac ham loop
