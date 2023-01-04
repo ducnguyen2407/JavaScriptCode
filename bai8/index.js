@@ -123,5 +123,16 @@ var array = [
 // console.log(array)
 
 
+//filter những thành viên có tuổi > 20
+// var people = array.filter(e => {
+//     return e.age > 20
+//     }   
+// )
+// console.log(people)
 
+// array.includes: chỉ có kiểu array và string mới dùng được kiểu này
+var text = "hello world"
+console.log(array.includes("hello"))
 
+var newarr = [12,4,5,3,5,45]
+console.log(newarr.includes(9))
