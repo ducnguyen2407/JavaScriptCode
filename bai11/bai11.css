@@ -1,0 +1,52 @@
+html,body{
+    position: relative;
+    margin: 0;
+    height: 100%;
+}
+.btn-show{
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+}
+.btn-show:hover{
+    background-color: #1660d7;
+    cursor: pointer;
+    
+}
+.dialog{
+    height: 100%;
+    width: 100%;
+    background-color: #c5c5c5;
+    position: absolute;
+    top: 0;
+    right:0;
+    z-index: 1000;
+    background-color: #c5c5c552;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.content{
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
+.exit{
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
